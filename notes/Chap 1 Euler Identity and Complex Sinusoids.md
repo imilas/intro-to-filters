@@ -30,7 +30,11 @@ $$
 $$
 e^{j(\omega n T + \phi)} = \cos(\omega n T + \phi) + j\sin(\omega n T + \phi)
 $$
-complex sinusoid: $e^{j(\omega*n*T+\phi)}$ 
+### complex sinusoid: 
+$$
+e^{j(\omega*n*T+\phi)}
+$$
+
 
 
 ## proof:
