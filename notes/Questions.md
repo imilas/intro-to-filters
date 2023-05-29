@@ -2,3 +2,4 @@
 2. Does Demoivre's theorem only apply to integer powers?
 3. instantanious phase of a sinusoid can change. What effect does this have on the frequency? https://ccrma.stanford.edu/~jos/mdft/Sinusoids.html
 4. prove that LTI filters are the only filters that preserve signal frequencies https://ccrma.stanford.edu/~jos/filters/Examples_Digital_Filters.html 
+5. Given n-poles and n-zeros, how do you define the function that minimizes/maximizes the gain for a given frequency? How about for all frequencies? https://ccrma.stanford.edu/~jos/filters/Graphical_Amplitude_Response.html. Same with the phase response calculation: https://ccrma.stanford.edu/~jos/filters/Graphical_Phase_Response_Calculation.html

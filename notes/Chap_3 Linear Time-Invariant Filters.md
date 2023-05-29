@@ -7,7 +7,7 @@ x(n) &= c \text{ where }c \in \mathcal{C}
 \end{align}
 $$
 a signal may be finite or infinite length
-# Filter Defitinion
+# Filter Definition
 a real or complex mapping of $x(n)$ to $y(n)$ for every n. 
 $$
 \begin{align}
@@ -66,7 +66,7 @@ is time-variant because the coefficient changes depending on n. It is linear how
 	- Scaling: The amplitude of the output is proportional to the amplitude of the input (the _scaling property_).
 	- Superposition: When two [signals](http://ccrma.stanford.edu/~jos/filters/Definition_Signal.html) are added together and fed to the [filter](https://ccrma.stanford.edu/~jos/filters/What_Filter.html), the filter output is the same as if one had put each signal through the filter separately and then added the outputs (the _superposition property_).
 
-## Mathmatical Definition
+## Mathematical Definition
 Let's say $\mathcal{L}$ is a linear, but not necessarily time-invariant filter. The output is dependent on 1 or more of x's variables, which is why we use $x(.)$. 
 $$
 y(n) =\mathcal{L_{n}(x(.))}

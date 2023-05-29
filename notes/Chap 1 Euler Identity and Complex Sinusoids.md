@@ -98,7 +98,7 @@ This is $Ae^{j(\omega t+\phi)}$ for continuous and $Ae^{j(\omega nT+\phi)}$ for 
 $$
 \begin{align} 
 \cos(\theta) = \frac{e^{j\theta}+e^{-j\theta}}{2} \\
-\sin(\theta) = \frac{e^{j\theta}-e^{-j\theta}}{2} \\
+\sin(\theta) = \frac{e^{j\theta}-e^{-j\theta}}{2j} \\
 \end{align}
 $$
 The above equations show that $\cos$ and $\sin$ are less fundimental than $e^{j\theta}$. Note that using real linear operations on complex sinusoids will treat the real and imaginary parts independently. 
