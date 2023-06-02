@@ -16,7 +16,7 @@ if $x(n) = n+1$ for $0 \le n \le_{2}$ then $X(z) = 1+2z^{-1}+3z^{-2}$
 
 ## Shift Theorem
 Delay of $\Delta$ in the time domain corresponds to multiplication by $z^{\Delta}$ in the frequency domain.
-**Intuition**: when $x(n)=c$ shifted to the right (or delayed) by $\Delta$, all the  $c$ values will be multiplied by $z^{\Delta}$  instead of $z^{n-\Delta}$. Here, the **causality** assumption is used. A causal signal is one that is 0 prior to time 0, so when the signal is delayed by $\Delta$, the new values inserted are 0. 
+**Intuition**: when $x(n)=c$ shifted to the right (or delayed) by $\Delta$, all the  $c$ values will be multiplied by an extra $z^{-\Delta}$ . Here, the **causality** assumption is used. A causal signal is one that is 0 prior to time 0, so when the signal is delayed by $\Delta$, the new values inserted are 0. 
 
 proof: https://ccrma.stanford.edu/~jos/filters/Shift_Theorem.html
 
@@ -45,7 +45,7 @@ $$
 Proof: https://ccrma.stanford.edu/~jos/filters/Z_Transform_Difference_Equations.html
 
 ### Factored Form:
-Will be covered in Chapter 7 Pole zero analysis, see https://ccrma.stanford.edu/~jos/filters/Pole_Zero_Analysis_I.html
+Some background covered in Chapter 7 Pole zero analysis, see https://ccrma.stanford.edu/~jos/filters/Pole_Zero_Analysis_I.html
 
 
 ## Series and parallel Transfer Functions
@@ -59,7 +59,7 @@ and
 $$
 Y(z) = H(z)X(z)
 $$
-So if a signal $x$ is being processed in a series with $H_1$ and $H_{2}$ then $X$ will be multiplied by $H_{z} =H_{1}\cdot H_{2}$. If X is being processed in parallel then a copy of $X$ is multiplied individually by each transfer function and summed. 
+So if a signal $x$ is being processed in a series with $H_1$ and $H_{2}$ then $X$ will be multiplied by $H_{z} =H_{1}\cdot H_{2}$. If $X$ is being processed in parallel then a copy of $X$ is multiplied individually by each transfer function and summed. 
 
 Note that the above suggests that the ordering of filters is commutative since multiplication of the filters is commutative.  
 
@@ -113,7 +113,7 @@ Assume there are two identical poles in parallel and in a series:
 
 ## Dealing with Repeated Poles Analytically:
 Assuming there is a pole $p_{i}$ repeated $m_{i}$ times. A pole with multiplicity $m_{i}$ has $m_{i}$ coefficients. 
-$r_{ij}$ is the $j$th coefficient associated with pole $p_{i}$ then each $r_{ij}$ is defined by: (note that $j$/$k$ starts from 0):
+$r_{ij}$ is the $j$th coefficient associated with pole $p_{i}$ then each $r_{ij}$ is defined by: (note that $j$ starts from 0):
 $$
 r_{ik} = \frac{1}{(k-1)!(-p_{i})^{k-1}} \cdot \frac{d^{k-1}}{d(z^{-1})^{k-1}}(1-p_{i}z^{-1})^{mi}H(z)|_{z=p_{i}} 
 $$
@@ -148,6 +148,8 @@ $$
 see bottom of https://ccrma.stanford.edu/~jos/filters/Example_General_Biquad_PFE.html
 Especially state space filters: https://ccrma.stanford.edu/~jos/filters/State_Space_Filters.html
 
+Summary: 
+https://ccrma.stanford.edu/~jos/filters/Summary_Partial_Fraction_Expansion.html
 # Further Reading
 https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra
 Circuits: 

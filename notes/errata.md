@@ -24,3 +24,6 @@ page number missing:
 ![[Pasted image 20230519155948.png]]
 https://ccrma.stanford.edu/~jos/filters/Stability_Revisited.html
 
+
+bottom of page: https://ccrma.stanford.edu/~jos/filters/Polynomial_Division_Matlab.html
+![[Pasted image 20230529145006.png]]
